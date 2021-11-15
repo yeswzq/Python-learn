@@ -3,7 +3,7 @@
 
 A1 = 'Python'
 A2 = A1[1:] + '-' + A1[:-4]
-print(A2)      #方法1
+print(A2)
 
 #print(A1[1:] + '-' + A1[:-4])
 

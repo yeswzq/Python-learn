@@ -6,8 +6,8 @@
 
 
 word = " scallywag"
-sub_word = word[3:7]       #方法1，疑问变量值加括号和不加括号两者之间的区别
-#sub_word = word[-7:-3]    #方法2
+sub_word = word[3:7]
+#sub_word = word[-7:-3]
 print(sub_word)
 
 

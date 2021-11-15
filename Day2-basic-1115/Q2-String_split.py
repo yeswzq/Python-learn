@@ -9,14 +9,13 @@
 # a='Beautiful, is; better*than\nugly'
 # b = re.split(pattern='[,;*\n]',string=a)[-1]
 # print(b)
-
-#['', '', 's', 'c', 'a', 'l', 'l', 'y', 'w', 'a', 'g', '']
 import re
 
+
 word = " scallywag"
-sub_word = word[3:7]
+sub_word = word[3:7]    #疑问加括号和不加括号两者之间的区别
 print(sub_word)
-print(word[3:7])
+
 
 sub_word1 = re.split(pattern='\W*' ,string=word)[4:5]
 print(sub_word1)

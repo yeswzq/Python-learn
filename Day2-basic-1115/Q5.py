@@ -7,3 +7,6 @@ print('-'*80)
 print('%-7s : %s' % ('接口',result[0]))
 print('%-7s : %s' % ('IP地址',result[1]))
 print('%-7s : %s' % ('状态',result[5]))
+
+
+

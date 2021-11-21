@@ -11,6 +11,7 @@ for x in asa:
     ip_port = result[0], result[1], result[2], result[3]
     value = result[4], result[5]
     dict1[ip_port] = value
+print(result[0])
 
 print(value)
 print("\n\n打印字典\n")

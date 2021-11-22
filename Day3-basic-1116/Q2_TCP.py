@@ -4,6 +4,7 @@ str1 = 'TCP server  172.16.1.101:443 localserver  172.16.66.1:53710, idle 0:01:0
 
 session = re.match('\s*(\w+)\s+server\s+(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}:\d+)\s+localserver\s+(\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}:\d+),\s+idle\s+(\d+:\d+:\d+),\s+bytes\s+(\d+),\s+flags\s+(\w+)',str1).groups()
 
+
 split_idle = session[3].split(':')
 
 hour = split_idle[0]

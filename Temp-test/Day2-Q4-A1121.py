@@ -29,6 +29,7 @@ print(Python)
 #下面为fstring的格式方法，看起来的话相对更简介的语法。字符串是左对齐，数字是右对齐。
 print(f'department1 name:{department1:10s} Manager:{depart1_m:10s} Course:{float(COURSE_FEES_SEC):<10.2f}')
 print(f'department1 name:{department2:10s} Manager:{depart2_m:10s} Course:{COURSE_FEES_Python:<10.2f}')
+print(f'department1 name:{department2:10s} Manager:{depart2_m:10s} Course:{COURSE_FEES_Python:<10.2f}')
 
 # 1.print('{} and {}'.format('hello','world'))  # 默认左对齐
 # hello and world
@@ -40,3 +41,16 @@ print(f'department1 name:{department2:10s} Manager:{depart2_m:10s} Course:{COURS
 # 1.123 is 1.12
 # 5. print('{0} is {0:>10.2f}'.format(1.123))  # 取2位小数，右对齐，取10位
 # 1.123 is       1.12
+
+"""
+print(
+    ...:     f"{'Trades:':<15}{2034:>10}",
+    ...:     f"\n{'Wins:':<15}{1232:>10}",
+    ...:     f"\n{'Losses:':<15}{1035:>10}",
+    ...:     f"\n{'Breakeven:':<15}{37:>10}",
+    ...:     f"\n{'Win/Loss Ratio:':<15}{1.19:>10}",
+    ...:     f"\n{'Mean Win:':<15}{0.381:>10}",
+    ...:     f"\n{'Mean Loss:':<15}{-0.395:>10}",
+    ...:     f"\n{'Mean:':<15}{0.026:>10}",
+    ...: )
+"""
